@@ -13,6 +13,7 @@ function App() {
     const newBookmarks = [...bookmarks, blog];
     setBookmarks(newBookmarks);
   }
+  
 
   const handleMarkAsRead = (id, time) =>{
     const newReadingTime = readingTime + time;
